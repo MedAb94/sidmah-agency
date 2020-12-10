@@ -26,15 +26,21 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="EN" class="nav-link">EN</a>
+                    <li class="nav-item" v-if="$i18n.locale==='fr'">
+                        <a href="#en" class="nav-link" @click="$i18n.locale='en'">
+                            EN
+                        </a>
+                    </li>
+                    <li class="nav-item" v-if="$i18n.locale==='en'">
+                        <a href="#fr" class="nav-link" @click="$i18n.locale='fr'">
+                            FR
+                        </a>
                     </li>
                 </ul>
             </div>
 
 
         </nav>
-
         <!-- ======= Hero Section ======= -->
 
         <!-- ======= Hero Section ======= -->
