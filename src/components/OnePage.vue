@@ -13,16 +13,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto font-weight-bold">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#about">A props</a>
+                        <a class="nav-link" href="#about"  v-smooth-scroll>A props</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#services">Nos services</a>
+                        <a class="nav-link" href="#services"  v-smooth-scroll>Nos services</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#portfolio">Projets</a>
+                        <a class="nav-link" href="#portfolio"  v-smooth-scroll>Projets</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact"  v-smooth-scroll>Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
